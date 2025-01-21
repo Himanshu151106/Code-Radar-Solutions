@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main{
     char a;
-    int b;
+    int b;              
     printf("Enter a character");
     scanf("%c",&a);
     b = (int) a;
-    printf("ASCII Value: "b);
+    printf("ASCII Value: %d "b);
+    return 0;
 }
